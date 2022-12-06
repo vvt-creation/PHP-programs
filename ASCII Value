@@ -1,0 +1,14 @@
+<?php
+ 
+   $ascii1 = ord('A');
+    echo "ASCII value of  A is : $ascii1<br>";
+        $ascii2 = ord('z');
+    echo "ASCII value of  z is : $ascii2<br>";
+ 
+    $ascii3 = ord('+');
+    echo "ASCII value of  + is : $ascii3<br>";
+ 
+    $ascii4 = ord('#');
+    echo "ASCII value of  # is : $ascii4<br>";
+ 
+?>

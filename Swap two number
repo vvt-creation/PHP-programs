@@ -1,0 +1,18 @@
+<?php
+// Declaring both the numbers
+$num1 = 6;
+$num2 = 2;
+print ("Number 1 original: " . $num1 . "</br>");
+print ("Number 2 original: " . $num2 . "</br>");
+  
+// Assigning num1 value to temp variable
+$temp_num = $num1;
+  
+// Assigning num1 value to num2
+$num1 = $num2;
+  
+// Assigning num2 value to temp num
+$num2 = $temp_num;
+print ("Number 1 modified: " . $num1 . "</br>");
+print ("Number 2 modified: " . $num2 . "</br>");
+?> 
